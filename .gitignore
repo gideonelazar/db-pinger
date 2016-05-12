@@ -1,0 +1,10 @@
+**/node_modules
+**/.DS_Store
+**/build
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
