@@ -1,4 +1,6 @@
-import pinger from './services/pingService'
+import pinger from './services/pingService';
+import validation from './services/validationService';
 
 export default angular.module('app.services', [])
-    .factory('PingService', pinger).name;
+    .factory('ValidationService', validation)
+    .factory('PingerService', pinger).name;

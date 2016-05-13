@@ -1,3 +1,10 @@
-<div>
-  <h1>foo</h1>
-</div>
+ <md-button class="md-raised md-primary" ng-click="vm.checkDB()">Primary</md-button>
+
+<form id="form" name="form">
+    <input type="text" name="name" require id="name" ng-model="vm.name" ng-model-options="{ updateOn: 'blur' }" async-validator="vm.ValidationCheck" async-validator-name="check">
+<br>
+validation    {{form.name.$error.check}} <br>
+    validation    {{form.name.$error.name}} <br>
+    pending    {{form.name.$pending}}<br>
+
+</form>

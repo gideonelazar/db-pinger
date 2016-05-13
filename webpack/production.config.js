@@ -5,10 +5,10 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            template: './index.html'
+            template: './src/index.html'
         }),
         //Generate an extra chunk, which contains common modules shared between entry points.
-        new webpack.optimize.CommonsChunkPlugin( /* chunkName= */ "vendor", /* filename= */ "vendor.bundle.js"),
+        new webpack.optimize.CommonsChunkPlugin( /* chunkName= */ 'vendor', /* filename= */ 'vendor.bundle.js'),
         //search for equal or similar files and deduplicate them in the output
         new webpack.optimize.DedupePlugin(),
         new webpack.NoErrorsPlugin(),

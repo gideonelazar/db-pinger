@@ -1,6 +1,6 @@
-const webpack = require('webpack'),
+var webpack = require('webpack'),
     BrowserSyncPlugin = require('browser-sync-webpack-plugin'),
-    ExtractTextPlugin = require("extract-text-webpack-plugin"),
+    ExtractTextPlugin = require('extract-text-webpack-plugin'),
     HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {

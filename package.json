@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development webpack --watch --webpack-dev-server --watch-poll --inline --devtool eval --progress --colors --hot --content-base",
-    "prod": "NODE_ENV=production webpack -p -bail",
+    "prod": "NODE_ENV=production webpack -p -bail --progress --colors",
     "start": "webpack"
   },
   "repository": {
@@ -40,6 +40,7 @@
     "html-webpack-plugin": "^2.15.0",
     "jshint": "^2.9.2",
     "jshint-loader": "^0.8.3",
+    "json-loader": "^0.5.4",
     "less": "^2.6.1",
     "less-loader": "^2.2.3",
     "ng-annotate-loader": "^0.1.0",
