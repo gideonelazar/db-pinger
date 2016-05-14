@@ -1,7 +1,11 @@
 function foo() {
-    alert('aaaaaa');
-    var x = 1 * 5;
-    console.log(x);
+    var y = 2 * 5;
+    console.log(y);
+    alert('bbbbbbb');
 }
 
 foo();
+
+function bar(){
+  console.log('bar');
+}
